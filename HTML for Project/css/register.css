@@ -1,0 +1,50 @@
+@font-face {
+    font-family: Bikinis;
+    src: url("../fonts/bikinis.ttf"); 
+}
+@font-face {
+    font-family: Knowledge;
+    src: url("../fonts/knowledgepower.ttf"); 
+}
+.lomake {
+    width:100%;
+}
+
+.lista {
+    list-style-type:none;
+    display:inline;
+}
+
+.registermain {
+    text-align: center;
+    width:100%;
+}
+
+.lista>li {
+    text-align:center;
+    margin: 10px;
+}
+
+input {
+    font-size: 12px;
+    height:25px;
+    text-align:center;
+}
+
+.registermain {
+    font-family:Bikinis;
+    color:lightblue;
+    -webkit-user-select: none;      
+    -moz-user-select: none;
+    -ms-user-select: none;
+    pointer-events: none;
+}
+.metrosexual {
+    font-family:Bikinis;
+    font-size:50px;
+    text-align: center;
+    -webkit-user-select: none;      
+    -moz-user-select: none;
+    -ms-user-select: none;
+    pointer-events: none;
+}

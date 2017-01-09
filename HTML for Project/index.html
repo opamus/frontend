@@ -1,0 +1,73 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        
+
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+
+        <header>
+            <h2><a style="color:black;" class="mainpagebutton" href=index.html>MetroArt</a></h2>
+            
+            <div id="myNav" class="overlay">
+                
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <a style="color:lightblue;" href="register.html">Register</a>
+                    <a href="index.html">Recent</a>
+                    <a href="mostlikes.html">Most Likes</a>
+                    <a href="profile.html">Profile</a>
+                </div>
+                
+                <form class="login" action="send_post.php" method="post">
+                    <h2 class="otsik" style="color:lightblue;">Login</h2>
+                    <label>E-Mail &nbsp;</label>
+                    <input type="text" name="E-Mail">
+                    <label>Password &nbsp;</label>
+                    <input type="text" name="Password">
+                    <input type="submit">
+                </form>
+                
+                
+            </div>
+            <span onclick="openNav()"><a href="#"><img class="menubutton" src="img/menubutton.png"></a></span>
+            
+            <a href="profile.html"><img class="profilepic" id="ProfilePicture" src="img/profile.png"></a>
+        
+        </header>
+        
+        
+        <div class="bar">
+            <!-- this is the black bar under the header -->
+        </div>
+        
+        
+        <main class="pictures">
+            <ul>
+                <li>
+                    <img src="img/123.jpg">
+                    <img src="img/123.jpg">
+                    <img src="img/123.jpg">
+                    <img src="img/123.jpg">
+                </li>
+            </ul>
+        </main>
+        
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+        <script src="js/main.js"></script>
+        
+    </body>
+</html>

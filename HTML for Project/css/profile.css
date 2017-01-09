@@ -1,0 +1,138 @@
+@font-face {
+    font-family: Bikinis;
+    src: url("../fonts/bikinis.ttf"); 
+}
+
+@font-face {
+    font-family: robotothin;
+    src:url("../fonts/robotothin.ttf")
+}
+
+body {
+    background-color:ghostwhite;
+}
+    
+.bar{
+    display:block;
+    height:10px;
+    width:100%;
+    background-color: black;
+    position:absolute;
+    top:80px;
+    left:0px;
+}
+
+.likebtn-wrapper {
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+    bottom:25px;
+    
+}
+
+.title {
+    text-align: center;
+    font-family: robotothin;
+    font-size: 3em;
+}
+
+.author {
+    text-align: center;
+    font-family: robotothin;
+}
+
+.bigimage{
+    width:90%;
+    height:auto;
+    align-content: center;
+    display:block;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    border-radius: 3%;
+    border: 3px solid lightgrey;
+    
+}
+.menubutton{
+    width:50px;
+    height:50px;
+    position: absolute;
+    top:22px;
+}
+
+.mainpagebutton {
+    text-decoration: none;
+}
+
+h2 {
+    text-align: center;
+    font-family: Bikinis;
+    font-size: 40px;
+    text-decoration: none;
+    
+}
+
+.profilepic {
+    border-radius: 50%;
+    -moz- border-radius: 50%;
+    position: absolute;
+    right: 30px;
+    top: 25px;
+    width: 40px;
+    height: 40px;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 15%; 
+    width: 100%; 
+    text-align: center; 
+    margin-top: 30px;
+    font-family: Bikinis;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
